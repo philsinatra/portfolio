@@ -1,6 +1,6 @@
 {
   "name": "philsinatra",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Personal website/portfolio.",
   "main": "gulpfile.js",
   "scripts": {
