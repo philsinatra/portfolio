@@ -1,0 +1,102 @@
+.main
+	background-color $color_gray
+	flex 1 0 auto
+
+	.article
+		.hero
+			align-items center
+			background-color $color_white
+			display flex
+			height 33vh
+			justify-content center
+			max-height 435px
+			overflow hidden
+			text-align center
+
+			img
+				width auto
+
+		.hero-black
+			background-color #000
+
+		.container
+			font-size .75rem
+			margin 3rem auto
+			max-width 70ch
+			padding 0 3rem
+
+		h1
+			font-size 1.75rem
+			line-height 1.1
+			margin-top 3rem
+
+		h2, h3, h4, h5, h6
+			line-height 1.1
+			margin 3rem 0 1.5rem
+
+		ul, ol, dl
+			margin 3rem 0
+
+		dt
+			font-weight bold
+
+		dl
+			ul, ol
+				margin-bottom 0
+				margin-top 0
+
+		dt
+			line-height 1.1
+
+		dd
+			margin-bottom 1rem
+
+		a
+			background-color transparent
+			background-image linear-gradient(to right, currentColor 0, currentColor 100%)
+			background-position bottom .05em center
+			background-repeat repeat-x
+			background-size 100% .05em
+			color $color_base
+			font-weight bold
+			text-decoration none
+			text-shadow .05em 0 0 $color_white, -.05em 0 0 $color_white, 0 .05em 0 $color_white, 0 -.05em 0 $color_white, .1em 0 0 $color_white, -.1em 0 0 $color_white, 0 .1em 0 $color_white, 0 -.1em 0 $color_white
+			transition all .3s ease
+
+			&:hover, &:focus
+				background-color $color_highlight
+				text-shadow .05em 0 0 $color_highlight, -.05em 0 0 $color_highlight, 0 .05em 0 $color_highlight, 0 -.05em 0 $color_highlight, .1em 0 0 $color_highlight, -.1em 0 0 $color_highlight, 0 .1em 0 $color_highlight, 0 -.1em 0 $color_highlight
+
+		figure
+			margin 0
+
+			figcaption
+				color #999
+				font-size .75rem
+				font-style italic
+
+		.prettyprint, .code
+			font-family $fonts-mono
+			margin 3rem 0
+			white-space pre-wrap
+
+		.flex_center
+			align-items center
+			display flex
+			justify-content center
+			margin 3rem 0
+
+			figcaption
+				margin-top 1.5rem
+
+		.grid-2col
+			display grid
+			grid-gap 1rem
+			grid-template-columns 1fr 1fr
+			margin 3rem 0
+
+		.hidden-small
+			display none
+
+			@media (min-width: 37.5em)
+				display block

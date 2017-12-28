@@ -1,0 +1,26 @@
+.nav
+	border-top 4px solid $color_gray_dark
+	display flex
+	margin 3rem 0 0
+
+	a
+		background-color $color_white
+		color $color_base
+		display block
+		font-size .75rem
+		padding 3rem
+		text-decoration none
+		transition background-color .3s ease
+		width 50%
+
+		&:last-child
+			text-align right
+
+		span
+			display block
+			font-size .875rem
+			font-weight bold
+			line-height 1.1
+
+		&:hover, &:focus
+			background-color $color_highlight

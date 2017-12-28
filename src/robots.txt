@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /alpha/
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /logs/
+Disallow: /phpmailer/
+Disallow: /phpMyAdmin/
+Disallow: /z_backups/

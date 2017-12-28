@@ -1,0 +1,18 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "require": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-global-assign": ["error", { "exceptions": ["Object"] }],
+    "indent": 0,
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  }
+}

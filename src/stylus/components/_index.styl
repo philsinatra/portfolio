@@ -1,0 +1,46 @@
+.index__grid
+	padding 2rem
+
+	article
+		margin-bottom 2rem
+
+		figure
+			margin 0
+			padding 0
+
+		h2
+			font-size .75rem
+			margin .25rem 0 0
+			text-transform uppercase
+
+			a
+				color $color_base
+				text-decoration none
+				transition background-color .3s ease
+
+				&:hover, &:focus
+					background-color $color_highlight
+
+		p
+			display none
+
+	@media screen and (min-width: 30em)
+		display grid
+		grid-gap 2rem
+		grid-template-columns 1fr 1fr
+		margin 0 auto
+		max-width 37.5rem
+
+		article
+			margin-bottom 0
+
+			p
+				display block
+				font-size .75rem
+				line-height 1.5
+				margin .25rem 0 0
+
+	@media screen and (min-width: 64em)
+		article
+			p
+				font-size .625rem

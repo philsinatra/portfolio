@@ -1,0 +1,17 @@
+{% include "partials/_head.njk" %}
+{% include "partials/_header.njk" %}
+
+	<div class="main">
+		<main role="main">
+			<div class="article">
+				<article>
+					{% block content %}
+						{{ content | safe }}
+					{% endblock %}
+				</article>
+			</div>
+		</main>
+	</div>
+
+{% include "partials/_nav.njk" %}
+{% include "partials/_footer.njk" %}

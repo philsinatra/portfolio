@@ -1,0 +1,45 @@
+*
+	box-sizing border-box
+
+html, body
+	height 100%
+
+html
+	font-family $fonts-websafe-sanserif
+	font-size 100%
+
+	&.fonts-loaded
+		font-family $fonts-css3-sanserif
+
+		.font_serif
+			font-family $fonts-css3-serif
+
+		.main
+			font-family $fonts-css3-serif
+
+			article
+				h1, h2, h3, h4, h5, h6
+					font-family $fonts-css3-sanserif
+
+	@media screen and (min-width: 64em)
+		font-size 150%
+
+body
+	background-color $color_gray
+	color $color_base
+	display flex
+	flex-direction column
+
+img
+	max-width none
+	width 100%
+
+.visually-hidden
+	clip rect(1px, 1px, 1px, 1px)
+	height 1px
+	overflow hidden
+	position absolute
+	width 1px
+
+[hidden]
+	display none !important

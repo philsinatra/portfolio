@@ -1,0 +1,47 @@
+{
+  "name": "philsinatra",
+  "version": "4.0.0",
+  "description": "Personal website/portfolio.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "./scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Phil Sinatra",
+    "email": "code@philsinatra.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "del": "^2.2.2",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "mkdirp": "^0.5.1",
+    "normalize.css": "^7.0.0",
+    "stylus-normalize": "^3.0.3",
+    "yargs": "^7.0.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "fontfaceobserver": "^2.0.13",
+    "picturefill": "^3.0.2"
+  }
+}
