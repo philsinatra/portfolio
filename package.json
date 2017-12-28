@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:philsinatra/portfolio.git"
   },
   "author": {
     "name": "Phil Sinatra",
